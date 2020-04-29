@@ -24,7 +24,7 @@ $ git checkout hoge-branch
 
 ```
 $ git add 変更したファイル名
-$ git comm -m "コメント"
+$ git commit -m "コメント"
 ```
 
 - 編集内容の粒度に注意して、適宜コミット
