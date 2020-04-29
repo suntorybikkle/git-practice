@@ -1,6 +1,11 @@
 # GitHub練習用
 
-## Git基本の流れ
+## Git開発 基本の流れ
+
+### issueで作業内容の把握
+
+- issueに対して作業者が割り当てるため、それに対処
+- 作業内容については、issue内で検討することになるかもしれない
 
 ### ローカルのリポジトリを最新の状態にする
 
@@ -17,8 +22,8 @@ $ git branch hoge-branch
 $ git checkout hoge-branch
 ```
 
-- 移動先のブランチで作業をする
 - `git checkout -b`で同時に行える
+- 移動先のブランチで作業をする
 
 ### 変更内容をコミット
 
@@ -32,6 +37,10 @@ $ git commit -m "コメント"
 - コミット時にはissue番号を関連付ける
 - ex.) `add: #12 ログインボタンの追加`
 - issue閉じるキーワードもあるため注意
+- issueに紐づけると以下のようになる (画像ではマージの紐づけもされている)
+
+<image src=https://user-images.githubusercontent.com/60565605/80596018-a94b4f80-8a60-11ea-845d-8cb590a7de02.png width=600>
+
 
 ### リモートにプッシュ
 
@@ -45,7 +54,7 @@ $ git push origin hoge-branch
 - `hoge-branch`の内容を`root-branch`に反映依頼する
 プルリクエストの作成
 
-<image src=https://user-images.githubusercontent.com/60565605/80591420-a2204380-8a58-11ea-92d9-892a90e28571.png width=500>
+<image src=https://user-images.githubusercontent.com/60565605/80591420-a2204380-8a58-11ea-92d9-892a90e28571.png width=700>
 
 作ったブランチを指定してマージリクエストを作成
   
