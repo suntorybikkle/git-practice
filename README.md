@@ -24,12 +24,14 @@ $ git checkout hoge-branch
 
 ```
 $ git add 変更したファイル名
-$ git commit -m "コメント"
+$ git comm -m "コメント"
 ```
 
 - 編集内容の粒度に注意して、適宜コミット
 - コメントにはプレフィックスをつけるとみやすい
-  - ex.) `add: ログインボタンの追加`
+- コミット時にはissue番号を付ける
+- ex.) `add: #12 ログインボタンの追加`
+- 閉じるキーワードもあるため注意
 
 ### リモートにプッシュ
 
@@ -41,6 +43,10 @@ $ git push origin hoge-branch
 
 - ブラウザ上で行う
 - `hoge-branch`の内容を`root-branch`に反映依頼する
+プルリクエストの作成
+
+<image src=https://user-images.githubusercontent.com/60565605/80591420-a2204380-8a58-11ea-92d9-892a90e28571.png width=600>
+<image src=https://user-images.githubusercontent.com/60565605/80591653-004d2680-8a59-11ea-9b33-bdaf26ff4f0e.png width=400>
 
 ### ブランチを移動して不要になったブランチを削除
 
