@@ -65,8 +65,7 @@ $ git checkout root-branch
 $ git branch -d hoge-branch
 ```
 
-- リモートの`hoge-branch`はプルリクエスト時に、マージ後削除申請できる
-- `git push --delete origin hoge-branch`というコマンドも利用可
+- `git push --delete origin hoge-branch`でリモートを削除
 
 ## 便利コマンド
 
