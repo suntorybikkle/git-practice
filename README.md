@@ -45,8 +45,18 @@ $ git push origin hoge-branch
 - `hoge-branch`の内容を`root-branch`に反映依頼する
 プルリクエストの作成
 
-<image src=https://user-images.githubusercontent.com/60565605/80591420-a2204380-8a58-11ea-92d9-892a90e28571.png width=600>
-<image src=https://user-images.githubusercontent.com/60565605/80591653-004d2680-8a59-11ea-9b33-bdaf26ff4f0e.png width=400>
+<image src=https://user-images.githubusercontent.com/60565605/80591420-a2204380-8a58-11ea-92d9-892a90e28571.png width=500>
+
+作ったブランチを指定してマージリクエストを作成
+  
+<image src=https://user-images.githubusercontent.com/60565605/80591653-004d2680-8a59-11ea-9b33-bdaf26ff4f0e.png width=300>
+
+本文中に対応内容と、issue番号を書いて紐づける
+
+<image src=https://user-images.githubusercontent.com/60565605/80593888-f3cacd00-8a5c-11ea-9cb0-c456a087fc1d.png width=600>
+
+マージされるまで待つ  
+場合によっては、リクエスト中でコメントのやり取りが発生する
 
 ### ブランチを移動して不要になったブランチを削除
 
