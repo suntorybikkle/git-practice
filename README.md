@@ -100,6 +100,13 @@ $ git diff
 - 上はステージングの変更の差
 - 引数次第でいろいろな箇所の差を見れる
 
+### add取り消し
+
+```
+$ git reset HEAD
+$ git reset HEAD file_name
+```
+
 ### 変更の一時退避
 
 ```
